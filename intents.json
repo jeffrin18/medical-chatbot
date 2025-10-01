@@ -1,0 +1,27 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you?"],
+      "responses": ["Hello! How can I assist you with medical info today?", "Hi there! What health info do you need?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": ["Goodbye! Take care of your health.", "Stay safe, see you soon!"]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": ["I have a headache", "I feel feverish", "I have stomach pain"],
+      "responses": [
+    "I'm not a doctor, but you should consider consulting one if symptoms persist. 😊 Take care!",
+    "It’s best to rest and drink fluids. If it continues, visit a doctor. 🌸 Wishing you a speedy recovery!"]
+    },
+    {
+      "tag": "medicine",
+      "patterns": ["Can I take paracetamol?", "What medicine for cold?", "Is ibuprofen safe?"],
+      "responses": ["Only a certified doctor can prescribe medicines. But Paracetamol is generally safe for fever (consult a doctor first).", "Ibuprofen may help with pain but confirm with your physician."]
+    }
+  ]
+}
+
