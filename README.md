@@ -21,4 +21,4 @@ A simple AI chatbot built using Python, Flask, TensorFlow, and NLTK.
 4. Open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 ---
-⚠️ Note: This is a **demo chatbot** and not for medical use.
+
